@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+     font-family: 'Montserrat', sans-serif;
+     
+
+  
+}
+.top{
+    height: 30px;                      
+    width: 100%;
+    background-color:  rgb(168, 69, 35);
+    border: 4px;
+    border-color:rgb(249, 185, 139);;
+    border-style: solid;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    
+}
+.box{
+    height:40px;
+    width: 250px;
+    padding-top: 20px;
+    display: inline-block;
+    
+    
+    
+}
+.box-in{
+    background-color:  black;
+    color:white;
+    border-color: rgb(249, 185, 139);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.box-in h3{
+    color:rgb(168, 69, 35);
+}
+
+.box-in h5{
+    color: rgb(249, 185, 139);
+}
+
+.box-in button{
+    
+    background-color: rgb(249, 185, 139);
+    color:black;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.addButton{
+    background-color: rgb(168, 69, 35);
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 750px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 100%;
+    font-size: 15px;
+    border:none;
+    
+}
+
+.popupOverlay{
+    position: absolute;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    display: none;
+}
+
+.popupBox{
+    height: 200px;
+    width: 310px;
+    background-color:rgb(168, 69, 35);
+    border-radius: 10px;
+    border-color:rgb(249, 185, 139);
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 30%;
+    padding-right: 22px;
+    margin-right: 10px;
+    padding-left: 38px;
+    padding-top: 7px;
+    position: absolute;
+    z-index: 2;
+    display:none ;
+  
+}
+
+.popupBox input{
+    background: transparent;
+    
+    margin: 4px;
+    padding: 4px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: black ,2px;
+    
+}
+.popupBox textarea{
+    background: transparent;
+    margin: 4px;
+    padding: 4px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: black 2px;
+
+}
+.popupBox input::placeholder{
+    color: black;
+}
+.popupBox textarea::placeholder{
+    color: black;
+}
+.popupBox button{
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.popupBox input:focus{
+    outline: none;
+}
+.popupBox textarea:focus{
+    outline: none;
+}
+
+
+
+

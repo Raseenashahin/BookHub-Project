@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BookKie</title>
+    <link rel="stylesheet" href="style.css"><link rel="preconne<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+
+    
+</head>
+<body>
+    
+    <center>
+    <div class="top"><h2>BookKie</h2></div>
+    </center>
+
+    <div class="box">
+        <div class="box-in">
+            <h3>Think and Grow Rich</h3>
+            <h5>-Robert Eintein</h5>
+            <p> This book clearly says how we think and also tells that the way your great thinking is how going to make you as a greatest person.</p>
+            <button onclick="deleted(event)">Remove</button>
+        </div>
+    </div>
+
+    <div class="popupOverlay"></div>
+    <div class="popupBox"><h2> Add Book </h2>
+        <form>
+           <input type="text" placeholder="Tile of the Book" id="bookTitleInput">
+           <input type="text" placeholder="Author of the Book" id="bookAuthorInput">
+           <textarea placeholder="Type the Description" id="bookDescriptionInput"></textarea>
+           <button id="addBook">Add</button>
+           <button id="cancelPopup">Cancel</button>
+
+        </form>
+
+   </div>
+
+    <button class="addButton" id="addPopup"><h1>+</h1></button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
